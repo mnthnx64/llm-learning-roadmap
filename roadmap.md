@@ -2,7 +2,7 @@
 
 ## NLP Foundation
 
-- [ ] Regex
+- [x] Regex
 - [ ] Text preprocessing: Tokenization, stemming, lemmatization, NER, POS
 - [ ] Text presentation: Count vectorizer, TF-IDF, BOW, Word2Vec, Embeddings
 - [ ] Text classification: Naïve Bayes
