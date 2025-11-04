@@ -1,0 +1,23 @@
+# Base requirements for LLM Learning workspace
+# Install packages as needed for each topic
+
+# Core ML/NLP libraries (will be added as we progress)
+# numpy
+# pandas
+# scikit-learn
+# nltk
+# spacy
+
+# LLM libraries (will be added as we progress)
+# openai
+# langchain
+# langchain-community
+
+# Vector databases (will be added as we progress)
+# faiss-cpu
+# chromadb
+
+# Agent frameworks (will be added as we progress)
+# langgraph
+# crewai
+
