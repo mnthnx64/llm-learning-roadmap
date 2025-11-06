@@ -9,7 +9,7 @@
 
 ## Gen AI Fundamentals
 
-- [ ] LLMs, Embeddings
+- [x] LLMs, Embeddings
 - [ ] Vector DBs (FAISS, Chromadb)
 - [ ] Retrieval Augmented Generation (RAG)
 - [ ] Langchain Framework
