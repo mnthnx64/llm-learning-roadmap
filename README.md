@@ -36,12 +36,75 @@ This repository is organized by learning topics:
 
 ## Setup
 
-1. Activate the mamba environment:
+### Prerequisites
+
+- **Python 3.8+** (Python 3.9 or higher recommended)
+- **pip** (Python package installer)
+- **Virtual environment** (optional but recommended): `venv`, `conda`, or `mamba`
+
+### Quick Start
+
+1. **Clone the repository** (if you haven't already):
    ```bash
+   git clone <repository-url>
+   cd llm-stuff
+   ```
+
+2. **Create and activate a virtual environment** (choose one option):
+
+   **Option A: Using venv (recommended for beginners)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On macOS/Linux
+   # OR
+   venv\Scripts\activate  # On Windows
+   ```
+
+   **Option B: Using conda/mamba**
+   ```bash
+   conda create -n llm-learning python=3.9
+   conda activate llm-learning
+   # OR
+   mamba create -n llm-learning python=3.9
    mamba activate llm-learning
    ```
 
-2. Install dependencies as needed for each topic (see individual folder READMEs)
+3. **Install all dependencies** with a single command:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Download additional NLP models** (required for some notebooks):
+   ```bash
+   # Download spaCy English model
+   python -m spacy download en_core_web_sm
+   
+   # Download NLTK data (run this in Python or a notebook)
+   python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('averaged_perceptron_tagger'); nltk.download('wordnet')"
+   ```
+
+5. **Verify installation**:
+   ```bash
+   python -c "import numpy, pandas, sklearn, nltk, spacy, sentence_transformers, faiss, chromadb; print('All packages installed successfully!')"
+   ```
+
+### Running Notebooks
+
+- Open Jupyter Notebook or JupyterLab:
+  ```bash
+  jupyter notebook
+  # OR
+  jupyter lab
+  ```
+
+- Navigate to the topic folder you want to explore (e.g., `nlp-foundation/text-preprocessing/`)
+
+### Troubleshooting
+
+- **Import errors**: Make sure your virtual environment is activated
+- **spaCy model errors**: Run `python -m spacy download en_core_web_sm`
+- **NLTK data errors**: Run the NLTK download command in step 4
+- **FAISS installation issues**: If `faiss-cpu` fails, try `pip install faiss-cpu --no-cache-dir`
 
 ## Roadmap
 

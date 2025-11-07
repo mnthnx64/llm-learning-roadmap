@@ -1,23 +1,35 @@
 # Base requirements for LLM Learning workspace
-# Install packages as needed for each topic
+# Install all dependencies with: pip install -r requirements.txt
 
-# Core ML/NLP libraries (will be added as we progress)
-# numpy
-# pandas
-# scikit-learn
-# nltk
-# spacy
+# Core ML/NLP libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
 
-# LLM libraries (will be added as we progress)
-# openai
-# langchain
-# langchain-community
+# Jupyter for running notebooks
+jupyter
+jupyterlab
 
-# Vector databases (will be added as we progress)
-# faiss-cpu
-# chromadb
+# NLP libraries
+nltk
+spacy
+gensim
 
-# Agent frameworks (will be added as we progress)
-# langgraph
-# crewai
+# LLM and embedding libraries
+sentence-transformers
+openai
+
+# Vector databases
+faiss-cpu
+chromadb
+
+# LangChain ecosystem
+langchain
+langchain-community
+
+# Agent frameworks
+langgraph
+crewai
 
