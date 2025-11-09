@@ -5,13 +5,12 @@
 - [x] Regex
 - [x] Text preprocessing: Tokenization, stemming, lemmatization, NER, POS
 - [x] Text presentation: Count vectorizer, TF-IDF, BOW, Word2Vec, Embeddings
-- [ ] Text classification: Naïve Bayes
 
 ## Gen AI Fundamentals
 
 - [x] LLMs, Embeddings
-- [ ] Vector DBs (FAISS, Chromadb)
-- [ ] Retrieval Augmented Generation (RAG)
+- [x] Vector DBs (FAISS, Chromadb)
+- [x] Retrieval Augmented Generation (RAG)
 - [ ] Langchain Framework
 
 ## Project 1
